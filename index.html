@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.webbotec.com/index.php?rest_route=/tap/v1/automator/webhook/57dae7e74e" method="post">
+        <input type="hidden" name="categ" value="خدمات حكومية">
+        <input type="hidden" name="service" value="جوازات">
+        <select name="type" id="type">
+            <option value="توكيل VIP">توكيل VIP</option>
+            <option value="فوري VIP">فوري VIP</option>
+            <option value="عاجل">عاجل</option>
+            <option value="عادي">عادي</option>
+          </select>
+          <input type="text" name="fullname" id="fullname" placeholder="name">
+          <input type="number" name="mobile" id="mobile" placeholder="mobile">
+          <input type="submit" value="send">
+    </form>
+</body>
+</html>
